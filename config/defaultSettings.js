@@ -9,9 +9,9 @@ export default {
   fixSiderbar: false,
   colorWeak: false,
   menu: {
-    locale: true,
+    locale: true,//true表示不使用国际化
   },
-  title: 'Ant Design Pro',
+  title: '凝聚管理系统',
   pwa: false,
   iconfontUrl: '',
 };

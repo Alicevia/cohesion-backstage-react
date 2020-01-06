@@ -56,7 +56,6 @@ export const webpackPlugin = config => {
                 return 'viz'; // visualization package
               }
             }
-
             return 'misc';
           },
         },

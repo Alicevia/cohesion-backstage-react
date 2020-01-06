@@ -16,7 +16,7 @@ const plugins = [
         hmr: true,
       },
       locale: {
-        // default false
+        // default false,
         enable: true,
         // default zh-CN
         default: 'zh-CN',
@@ -109,6 +109,12 @@ export default {
               icon: 'crown',
               component: './Admin',
               authority: ['admin'],
+            },
+            {
+              name: 'white',
+              icon: 'smile',
+              path: '/emptypage',
+              component: './EmptyPage',
             },
             {
               component: './404',
